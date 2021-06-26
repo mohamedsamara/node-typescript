@@ -1,0 +1,23 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "description": "Node Typescript Boilerplate",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamedsamara/node-typescript.git"
+  },
+  "keywords": [
+    "node",
+    "typescript"
+  ],
+  "author": "Mohamed Samara (https://github.com/mohamedsamara)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohamedsamara/node-typescript/issues"
+  },
+  "homepage": "https://github.com/mohamedsamara/node-typescript#readme"
+}
