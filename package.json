@@ -4,6 +4,11 @@
   "description": "Node TypeScript Template",
   "main": "build/index.js",
   "scripts": {
+    "clean": "rimraf ./build",
+    "start:dev": "nodemon",
+    "start": "node build/index.js",
+    "build": "npm run clean && tsc",
+    "postinstall": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/mohamedsamara/node-typescript/issues"
   },
-  "homepage": "https://github.com/mohamedsamara/node-typescript#readme"
+  "homepage": "https://github.com/mohamedsamara/node-typescript#readme",
+  "devDependencies": {
+    "@babel/register": "^7.14.5",
+    "@types/node": "^15.12.4",
+    "nodemon": "^2.0.7",
+    "rimraf": "^3.0.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
 }
